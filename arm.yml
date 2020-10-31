@@ -1,3 +1,11 @@
 spring:
     application:
         name: arm
+    datasource:
+        url: jdbc:postgresql://localhost:5432/curtains_arm
+        driver-class-name: org.postgresql.Driver
+        username: postgres
+        password: rinat
+    jpa:
+        hibernate:
+            ddl-auto: create
