@@ -5,4 +5,4 @@ spring:
         url: jdbc:postgresql://localhost:5432/curtains_customer_dev
     jpa:
         hibernate:
-            ddl-auto: create
+            ddl-auto: update
